@@ -32,7 +32,7 @@ const HomePage = async () => {
         fallback={<PreviewSuspenseFallback></PreviewSuspenseFallback>}
       >
         <PreviewBlogList query={query}></PreviewBlogList>
-        <h1>PREVIEW MODE</h1>
+        {/* <h1>PREVIEW MODE</h1> */}
       </PreviewSuspense>
     )
   }
@@ -45,7 +45,7 @@ const HomePage = async () => {
     <>
       <div className="">
         <BlogList posts={posts} ></BlogList>
-        <h1>Not PREVIEW mode</h1>
+        {/* <h1>Not PREVIEW mode</h1> */}
       </div>
     </>
   )
